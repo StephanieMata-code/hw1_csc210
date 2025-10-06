@@ -1,0 +1,2 @@
+The storage is done by breaking down the 5-byte integer into individual bytes and storing each byte sequentially in memory (from most significant byte to least significant byte): 12h, 34h, 56h, 78h, and 9Ah). 
+The retrieval is done by reading each byte back from memory, shifting them to their correct positions, and combining them using bitwise OR operations to reconstruct the original 5-byte integer.
